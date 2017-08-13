@@ -14,4 +14,5 @@ class BlogItem(scrapy.Item):
     title = scrapy.Field()
     body = scrapy.Field()
     tags = scrapy.Field()
+    index = scrapy.Field()
 

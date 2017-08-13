@@ -13,6 +13,10 @@ BOT_NAME = 'crawler'
 
 SPIDER_MODULES = ['crawler.spiders']
 NEWSPIDER_MODULE = 'crawler.spiders'
+SPIDER_CONTRACTS = {
+    'crawler.contracts.CookiesContract': 10,
+    'crawler.contracts.ItemValidateContract': 20,
+}
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
